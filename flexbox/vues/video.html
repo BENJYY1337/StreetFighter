@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style.css">
+        <title>vue video</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li> <a href="../index.html">Flexbox</a></li>
+                <li> <a href="audio.html">Audio</a></li>
+                <li> <a href="video.html" class="active">Vidéo</a></li>
+                <li> <a href="image.html">Image</a></li>
+            </ul>
+        </nav>
+        <div class="text3">
+        <h3>La balise video: La vidéo sur une page html</h3>
+        <p>C'est avec l'attribut src que l'on indique le chemin vers le fichier voulu.</p>
+        &lt;video controls width="250"&gt;<br><br>
+            &lt;source src="./media/examples/flower.webm"<br>
+                type="video/webm"&gt;<br><br>
+            &lt;source src="./media/examples/flower.mp4"<br>
+                type="video/webm"&gt;
+                <p>Sorry, your browser doesn't support embedded videos.</p>
+        &lt;/video&gt;
+        </div>
+
+        <video controls width="250" class="video">
+            <source src="./media/examples/flower.webm" type="video/webm">
+            <source src="../public/Vidéos/street-fighter-2-1992-snes.mp4" type="video/mp4">
+                <p>Sorry, your browser doesn't support embedded videos.</p>
+        </video>
+    </body>
+</html>

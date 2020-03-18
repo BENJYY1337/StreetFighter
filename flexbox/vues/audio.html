@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style.css">
+        <title>vue audio</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li> <a href="../index.html">Flexbox</a></li>
+                <li> <a href="audio.html" class="active">Audio</a></li>
+                <li> <a href="video.html">Vidéo</a></li>
+                <li> <a href="image.html">Image</a></li>
+            </ul>
+        </nav> 
+        <div class="text2">
+            <h3>La balise audio: Le son sur une page html</h3>
+            <p>C'est avec l'attribut src que l'on indique le chemin vers le fichier<br><br>
+                &lt;audio controls&gt;<br><br>
+                    &lt;source src="monAudio.mp3" type="audio/mpeg"&gt;<br>
+                    &lt;source src="monAudio.ogg" type="audio/ogg"&gt;<br>
+                    &lt;p&gt;Votre navigateur ne prend pas en charge l'audio HTML.<br>
+                        Voici un &lt;a href="myAudio.mp4"&gt; lien vers le fichier audio&lt;/a&gt;pour le télécharger
+                    &lt;/p&gt;<br><br>
+                &lt;/audio&gt;
+            </p>
+        </div>
+        <audio controls class="soundbar">
+            <source src="..\public/Audios/hyper-street-fighter-ii-music-guile-stage.mp3" type="audio/mpeg">
+            <source src="monAudio/ogg" type="audio/ogg">
+            <p>Votre navigateur ne prend pas en charge l'audio HTML.<br>
+                Voici un <a href="myAudio.mp4"> lien vers le fichier audio</a>pour le télécharger
+            </p>
+        </audio>
+</body>
+</html> 

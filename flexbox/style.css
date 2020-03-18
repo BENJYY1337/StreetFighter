@@ -1,0 +1,185 @@
+html, body{
+    background-color: blanchedalmond;
+    height: 100%;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    border: solid;
+    border-color: black;
+    display: flex;
+    font-size: x-large;
+    justify-content: space-between;
+    margin: 0;
+    padding: 20px;
+    background-color: lightskyblue;
+    color: red;
+}
+
+.color{
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 0;
+    padding-right: 10cm;
+    color: black;
+}
+
+.text{
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    padding-left: 20px;
+    border: 2px dashed black;
+}
+
+.text2{
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    padding-left: 20px;
+    border: 2px dotted black;
+}
+
+.text3{
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    padding-left: 20px;
+    border: 2px dotted black;
+}
+
+.text4{
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    padding-left: 20px;
+    border: 2px solid black;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.main * {
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.container1{
+    display: flex;
+    margin: 50px;
+    flex-flow: row;
+}
+.container2{
+    display: flex;
+    flex-flow: row;
+}
+.container3{
+    display: flex;
+    flex-flow: row;
+}
+
+.circle{
+    border: 1px solid;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: red; 
+}
+
+.rectangle{
+    border: 1px solid;
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    height: 110px;
+    width: 50px;
+    margin-left: 2cm;
+    background: yellow;
+}
+
+.rectangle2{ 
+    border: 1px solid;
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(40deg);
+    -webkit-transform: rotate(100deg);
+    -o-transform: rotate(80deg);
+    height: 110px;
+    width: 50px;
+    background: green;
+}
+
+.trapeze{
+    border: 1px solid;
+    width: 65px;
+	height:90px;
+	background: lightblue;
+	-webkit-transform:skew(-20deg);
+	-moz-transform:skew(20deg);
+	-o-transform:skew(20deg);
+}
+
+.ovale{
+    border: 1px solid;
+    width:110px;
+    height:50px;
+    background: blue;
+    border-radius: 6px;
+}
+
+.carre{
+    border: 1px solid;
+    width:70px;
+    height:70px;
+    border-top-right-radius: 15px;
+	background: lightblue;
+}
+
+.active{
+    color: red;
+}
+
+.soundbar{
+    margin-top: 6cm;
+    margin-left: 22cm;
+}
+
+.video{
+    margin-top: 6cm;
+    margin-left: 22cm;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+    margin-top: 3cm;
+}
+
+#ryu{
+    width:500px;
+    height:500px;
+}
+
+#fight{
+    widows: 300px;
+    height:100px;
+    margin-top: 10cm;
+    margin-right: 2.5cm;
+}
+
+#chun-li{
+    widows: 500px;
+    height:500px;
+}
